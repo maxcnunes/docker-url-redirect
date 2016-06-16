@@ -1,0 +1,6 @@
+local:
+  build: .
+  ports:
+    - 8080:8080
+  environment:
+    REDIRECT_URL: https://google.com
