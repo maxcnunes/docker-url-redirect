@@ -1,7 +1,7 @@
 # docker-url-redirect
 
-Lightweight docker image to redirect URLs.
+Lightweight docker image (2 MB) to redirect URLs.
 
 ```bash
-docker run -p 8080:8080 -e REDIRECT_URL=https://google.com maxcnunes/url-redirect
+docker run -p 8080:8080 -e REDIRECT_URL=https://google.com maxcnunes/docker-url-redirect
 ```
